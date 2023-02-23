@@ -30,7 +30,7 @@ public class CompasSitipeResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Uni<String> getHelloWorld() {
-        return Uni.createFrom().item("Hello World");
+        return Uni.createFrom().item("Hello World!");
     }
 
 }

@@ -26,7 +26,7 @@ public class LivenessHealthCheckTest {
     public void itShouldReturnSystemLive() {
         var result = sut.call();
 
-        assertEquals(result.getName(), "System Live");
-        assertEquals(result.getStatus(), HealthCheckResponse.Status.UP);
+        assertEquals("System Live", result.getName());
+        assertEquals(HealthCheckResponse.Status.UP, result.getStatus());
     }
 }

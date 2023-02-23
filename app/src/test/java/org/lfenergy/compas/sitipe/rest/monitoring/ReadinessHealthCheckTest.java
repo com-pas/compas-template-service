@@ -26,7 +26,7 @@ class ReadinessHealthCheckTest {
     public void itShouldReturnSystemReady() {
         var result = sut.call();
 
-        assertEquals(result.getName(), "System Ready");
-        assertEquals(result.getStatus(), HealthCheckResponse.Status.UP);
+        assertEquals("System Ready", result.getName());
+        assertEquals(HealthCheckResponse.Status.UP, result.getStatus());
     }
 }
