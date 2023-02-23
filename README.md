@@ -11,3 +11,21 @@ SPDX-License-Identifier: Apache-2.0
 [![Slack](https://raw.githubusercontent.com/com-pas/compas-architecture/master/public/LFEnergy-slack.svg)](http://lfenergy.slack.com/)
 
 # CoMPAS Sitipe Service
+
+### Local Development
+You can start the mssql database by running one of the following commands:
+
+#### Mac M1
+```
+docker-compose --env-file docker/.env -f docker/docker-compose-m1.yml up -d --build
+```
+
+#### AMD64
+```
+docker-compose --env-file docker/.env -f docker/docker-compose-amd64.yml up -d --build
+```
+
+Quarkus can be started in dev mode:
+```
+./mvnw -DskipTests=true  package io.quarkus:quarkus-maven-plugin::dev
+```
