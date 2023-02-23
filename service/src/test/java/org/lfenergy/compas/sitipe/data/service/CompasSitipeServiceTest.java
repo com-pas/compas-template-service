@@ -8,6 +8,8 @@
 package org.lfenergy.compas.sitipe.data.service;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.lfenergy.compas.sitipe.data.repository.SitipeRepository;
 import org.lfenergy.compas.sitipe.service.CompasSitipeService;
@@ -27,4 +29,8 @@ class CompasSitipeServiceTest {
         sut = new CompasSitipeService(repository);
     }
 
+    @Test
+    public void itShouldExist() {
+        assertNotNull(sut);
+    }
 }

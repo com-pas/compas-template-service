@@ -6,8 +6,6 @@ package org.lfenergy.compas.sitipe.rest.v1;
 
 import io.smallrye.common.annotation.Blocking;
 import io.smallrye.mutiny.Uni;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.lfenergy.compas.sitipe.service.CompasSitipeService;
 
 import javax.enterprise.context.RequestScoped;
@@ -22,9 +20,6 @@ import javax.ws.rs.core.MediaType;
 @RequestScoped
 @Path("/sitipe/v1")
 public class CompasSitipeResource {
-
-    private static final Logger LOGGER = LogManager.getLogger(CompasSitipeResource.class);
-
     private final CompasSitipeService compasSitipeService;
 
     @Inject
