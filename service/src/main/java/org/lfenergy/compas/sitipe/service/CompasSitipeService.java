@@ -6,8 +6,8 @@ package org.lfenergy.compas.sitipe.service;
 
 import org.lfenergy.compas.sitipe.data.repository.SitipeRepository;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 
 /**
  * Service class that will be using a Repository instance to retrieve, Sitipe configuration.
