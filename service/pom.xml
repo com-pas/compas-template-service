@@ -9,7 +9,7 @@ SPDX-License-Identifier: Apache-2.0
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.lfenergy.compas</groupId>
+        <groupId>org.lfenergy.compas.template</groupId>
         <artifactId>compas-template-service</artifactId>
         <version>local-SNAPSHOT</version>
     </parent>
@@ -34,7 +34,7 @@ SPDX-License-Identifier: Apache-2.0
         </dependency>
 
         <dependency>
-            <groupId>org.lfenergy.compas</groupId>
+            <groupId>org.lfenergy.compas.template</groupId>
             <artifactId>repository</artifactId>
         </dependency>
 
