@@ -24,11 +24,11 @@ SPDX-License-Identifier: Apache-2.0
 
     <dependencies>
         <dependency>
-            <groupId>org.lfenergy.compas.sitipe</groupId>
+            <groupId>org.lfenergy.compas</groupId>
             <artifactId>service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.lfenergy.compas.sitipe</groupId>
+            <groupId>org.lfenergy.compas</groupId>
             <artifactId>repository</artifactId>
         </dependency>
         <dependency>
