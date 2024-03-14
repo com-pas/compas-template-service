@@ -8,7 +8,7 @@ SPDX-License-Identifier: Apache-2.0
          xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.lfenergy.compas</groupId>
+    <groupId>org.lfenergy.compas.template</groupId>
     <artifactId>compas-template-service</artifactId>
     <version>local-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -42,7 +42,7 @@ SPDX-License-Identifier: Apache-2.0
         <repository>
             <id>github-packages-compas</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/com-pas/compas-sitipe-service</url>
+            <url>https://maven.pkg.github.com/com-pas/compas-template-service</url>
         </repository>
     </distributionManagement>
 
@@ -65,12 +65,12 @@ SPDX-License-Identifier: Apache-2.0
             </dependency>
 
             <dependency>
-                <groupId>org.lfenergy.compas.sitipe</groupId>
+                <groupId>org.lfenergy.compas.template</groupId>
                 <artifactId>service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.lfenergy.compas.sitipe</groupId>
+                <groupId>org.lfenergy.compas.template</groupId>
                 <artifactId>repository</artifactId>
                 <version>${project.version}</version>
             </dependency>
