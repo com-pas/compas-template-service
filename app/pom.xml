@@ -9,7 +9,7 @@ SPDX-License-Identifier: Apache-2.0
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.lfenergy.compas</groupId>
+        <groupId>org.lfenergy.compas.template</groupId>
         <artifactId>compas-template-service</artifactId>
         <version>local-SNAPSHOT</version>
     </parent>
@@ -19,16 +19,16 @@ SPDX-License-Identifier: Apache-2.0
 
     <properties>
         <quarkus.container-image.group>lfenergy</quarkus.container-image.group>
-        <quarkus.container-image.name>compas-sitipe-service</quarkus.container-image.name>
+        <quarkus.container-image.name>compas-template-service</quarkus.container-image.name>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.lfenergy.compas</groupId>
+            <groupId>org.lfenergy.compas.template</groupId>
             <artifactId>service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.lfenergy.compas</groupId>
+            <groupId>org.lfenergy.compas.template</groupId>
             <artifactId>repository</artifactId>
         </dependency>
         <dependency>
