@@ -8,8 +8,8 @@ SPDX-License-Identifier: Apache-2.0
          xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.lfenergy.compas.sitipe</groupId>
-    <artifactId>compas-sitipe-service</artifactId>
+    <groupId>org.lfenergy.compas</groupId>
+    <artifactId>compas-template-service</artifactId>
     <version>local-SNAPSHOT</version>
     <packaging>pom</packaging>
 
